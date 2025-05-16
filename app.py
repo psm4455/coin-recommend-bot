@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # ← 추가
 import requests
 import pandas as pd
 import time
