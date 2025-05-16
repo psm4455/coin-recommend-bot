@@ -10,7 +10,7 @@ import os
 import threading
 
 app = Flask(__name__)
-
+CORS(app)  # 모든 도메인에서의 접근 허용
 # ===== 설정 =====
 COINMARKETCAP_API_KEY = "efd185db-42f9-4c43-b08e-9d99fa6a1013"
 KAKAO_REST_API_KEY = "f37a2090d8a668183699437f586bf241"
